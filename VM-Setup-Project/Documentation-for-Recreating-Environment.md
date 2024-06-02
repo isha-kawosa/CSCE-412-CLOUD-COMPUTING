@@ -2,7 +2,7 @@
 
 
 
-<img src="https://github.com/isha-kawosa/CSCE-412-CLOUD-COMPUTING/assets/149615714/7b006de0-44f8-4731-bb91-5bb6a4e58bed" width="150" height="150" align="right">
+<img src="https://github.com/isha-kawosa/CSCE-412-CLOUD-COMPUTING/assets/149615714/7b006de0-44f8-4731-bb91-5bb6a4e58bed" width="200" height="200" align="right">
 
 ### Overview
 This document provides detailed instructions for creating a virtual machine (VM) suitable for a development environment. The VM will be used for software development and documentation design, equipped with necessary tools and software. The objective is to create a repeatable process for IT personnel to recreate this environment.
