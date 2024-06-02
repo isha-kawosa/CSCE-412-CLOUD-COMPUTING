@@ -92,3 +92,4 @@ This document provides detailed instructions for creating a virtual machine (VM)
 1. Open the [Adobe Acrobat Reader download page](https://get.adobe.com/reader/).
 2. Download the installer for Windows.
 3. Run the installer and follow the on-screen instructions.
+
