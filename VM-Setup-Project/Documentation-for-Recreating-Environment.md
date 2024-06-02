@@ -52,7 +52,7 @@ This document provides detailed instructions for creating a virtual machine (VM)
    Then, using Google Chrome, install the following:
    
    Code Editor:
-   - **Visual Studio Code**: Download and install from [VS Code](https://code.visualstudio.com/).
+   - **Notepad++**: Download and install from [Notepad++](https://notepad-plus-plus.org/downloads/).
    
    Compiler:
    - **MinGW Compiler**: Download and install from [MinGW](https://sourceforge.net/projects/mingw/).
@@ -68,8 +68,8 @@ This document provides detailed instructions for creating a virtual machine (VM)
 
 ### Software Installation Instructions
 
-#### Install Visual Studio Code
-1. Open the [Visual Studio Code download page](https://code.visualstudio.com/Download).
+#### Install Notepad++
+1. Open the [Notepad++ download page](https://notepad-plus-plus.org/downloads/).
 2. Download the installer for Windows.
 3. Run the installer and follow the on-screen instructions.
 
