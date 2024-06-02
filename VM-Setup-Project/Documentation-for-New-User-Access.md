@@ -13,7 +13,7 @@ This document serves as a user guide to gain access to and utilize the virtual m
 To access the VM, use the following credentials:
 - **Username:** intern
 - **Password:** pass@1234
-- **IP Address:** 18.209.36.169
+- **IP Address:** 54.224.58.252
 
 ### Step 1: Setting Up Remote Desktop Connection
 #### For Windows Users
