@@ -1,6 +1,6 @@
 # Virtual Machine Creation Guide for IT Personnel
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset=![DevCloud Solutions Logo](DevCloud%20Solutions.png)>
+  <source media=![DevCloud Solutions Logo](DevCloud%20Solutions.png)>
 <picture>
 
 
