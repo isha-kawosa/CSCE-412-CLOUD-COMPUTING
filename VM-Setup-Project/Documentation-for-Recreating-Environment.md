@@ -1,7 +1,5 @@
 # Virtual Machine Creation Guide for IT Personnel
-<picture>
-  <source media="![DevCloud Solutions Logo](DevCloud%20Solutions.png)">
-<picture>
+<img src="DevCloud Solutions.png" alt="DevCloud Solutions Logo" style="border-radius:50%;">
 
 
 ## Overview
