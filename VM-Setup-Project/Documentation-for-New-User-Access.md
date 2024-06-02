@@ -1,4 +1,4 @@
-# Project 1 - Documentation for New User Access
+# Documentation for New User Access
 
 
 
