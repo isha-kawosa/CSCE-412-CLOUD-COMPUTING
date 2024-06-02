@@ -1,12 +1,6 @@
 # Virtual Machine Creation Guide for IT Personnel
 
-<style>
-.round-img {
-  border-radius: 50%;
-}
-</style>
-
-![DevCloud Solutions Logo](DevCloud%20Solutions.png)
+![DevCloud Solutions Logo](DevCloud%20Solutions.png){: .round-img}
 
 ## Overview
 This document provides detailed instructions for creating a virtual machine (VM) suitable for a development environment. The VM will be used for software development and documentation design, equipped with necessary tools and software. The objective is to create a repeatable process for IT personnel to recreate this environment.
