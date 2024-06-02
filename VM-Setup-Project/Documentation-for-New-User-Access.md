@@ -1,9 +1,8 @@
-<img src="https://github.com/isha-kawosa/CSCE-412-CLOUD-COMPUTING/assets/149615714/7b006de0-44f8-4731-bb91-5bb6a4e58bed" width="150" height="150" align="right">
-
-
-
-
 # Project 1 - Documentation for New User Access
+
+
+
+<img src="https://github.com/isha-kawosa/CSCE-412-CLOUD-COMPUTING/assets/149615714/7b006de0-44f8-4731-bb91-5bb6a4e58bed" width="150" height="150" align="right">
 
 ### Overview
 This document serves as a user guide to gain access to and utilize the virtual machine (VM) environment created for software development and documentation design. The provided instructions aim to facilitate a smooth onboarding process for new users, such as interns, new employees, or students.
