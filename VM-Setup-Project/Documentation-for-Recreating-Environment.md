@@ -53,12 +53,16 @@ This document provides detailed instructions for creating a virtual machine (VM)
    
    Code Editor:
    - **Visual Studio Code**: Download and install from [VS Code](https://code.visualstudio.com/).
+   
    Compiler:
    - **MinGW Compiler**: Download and install from [MinGW](https://sourceforge.net/projects/mingw/).
+   
    Integrated Development Environment (IDE):
    - **Visual Studio Installer**: Download from [Visual Studio Installer](https://visualstudio.microsoft.com/downloads/).
+   
    Document Editor:
    - **LibreOffice**: Download and install from [LibreOffice](https://www.libreoffice.org/download/download/).
+   
    PDF Viewer:
    - **Adobe Acrobat Reader**: Download and install from [Adobe Acrobat Reader](https://get.adobe.com/reader/).
 
