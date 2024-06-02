@@ -1,3 +1,4 @@
+![DevCloud Solutions Logo](DevCloud Solutions.png)
 # Virtual Machine Creation Guide for IT Personnel
 
 ## Overview
