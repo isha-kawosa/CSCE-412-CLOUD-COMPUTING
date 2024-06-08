@@ -123,7 +123,7 @@ This document serves as a guide to recreate the container orchestration environm
    - Add an inbound rule for HTTP (port 8080) from anywhere (0.0.0.0/0).
      
 3. **Test the containerized website in a web browser:**
-   -  Open your web browser and navigate to http://your-instance-ip-address:8080.
+   -  Open your web browser and navigate to http://54.153.36.94:8080.
   
 ### E.  Replicate Containers using Docker Compose
 
@@ -179,11 +179,11 @@ This document serves as a guide to recreate the container orchestration environm
    ```
 4. **Verify all instances are running correctly:**
    - Check each instance by navigating to:
-      http://your-instance-ip-address:8081
-      http://your-instance-ip-address:8082
-      http://your-instance-ip-address:8083
-      http://your-instance-ip-address:8084
-      http://your-instance-ip-address:8085
+      http://54.153.36.94:8081
+      http://54.153.36.94:8082
+      http://54.153.36.94:8083
+      http://54.153.36.94:8084
+      http://54.153.36.94:8085
 
 ### F.  Create Unique Container Copies
 
