@@ -36,6 +36,13 @@ This document serves as a guide to recreate the container orchestration environm
    - Confirm that you have downloaded the key pair and acknowledge the warning about losing the key pair (if you lose it, you won’t be able to connect to your instance).
    - Click "Launch Instances" to complete the launch process.
 
+
+
+
+
+
+<img src="https://github.com/isha-kawosa/CSCE-412-CLOUD-COMPUTING/assets/149615714/7b006de0-44f8-4731-bb91-5bb6a4e58bed" width="180" height="180" align="right">
+
 3. **Access the Ubuntu Instance:**
    - Open a terminal on your local machine.
    - Navigate to the directory where your key pair file is stored.
