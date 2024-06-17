@@ -1,0 +1,7 @@
+Starting simulation with 4 servers and 6 clock cycles.
+Starting queue size: 400
+Ending queue size: 379
+Range for task times: 1 - 10 cycles
+Average task time: 5.83333 cycles
+Total number of requests processed: 84
+Peak queue size: 400
