@@ -4,12 +4,13 @@ phases:
   install:
     commands:
       - echo "Installing dependencies..."
-      - npm install 
+      - npm install
 
   build:
     commands:
       - echo "Building the website..."
-      - npm run build  
+      - npm run build
+
 artifacts:
   files:
-    - '**/*'
+    - 'Website/**/*'
