@@ -1,0 +1,10 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "personal website",
+  "scripts": {
+    "build": "echo 'No build necessary for a personal website'"
+  },
+  "author": "Isha",
+  "license": "MIT"
+}
