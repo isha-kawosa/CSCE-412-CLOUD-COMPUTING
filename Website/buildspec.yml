@@ -4,11 +4,11 @@ phases:
   install:
     commands:
       - echo "Install phase"
-      - npm install
+      - if [ -f "package.json" ]; then npm install; else echo "No package.json found, skipping npm install"; fi
   build:
     commands:
       - echo "No build necessary for a personal website"
   post_build:
     commands:
       - echo "Post build phase"
- 
+  
