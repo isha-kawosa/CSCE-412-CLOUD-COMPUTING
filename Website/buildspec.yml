@@ -2,18 +2,13 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      nodejs: 14  
     commands:
-      - echo "Installing dependencies..."
+      - echo "Install phase"
       - npm install
-
   build:
     commands:
-      - echo "Building the website..."
-      - npm run build
-
-artifacts:
-  files:
-    - '**/*'
-
+      - echo "No build necessary for a personal website"
+  post_build:
+    commands:
+      - echo "Post build phase"
+ 
