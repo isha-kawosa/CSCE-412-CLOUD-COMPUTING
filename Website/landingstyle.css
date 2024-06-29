@@ -1,0 +1,470 @@
+body {
+    background-color: #212F3C;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    background-color: #B3B6B7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0;
+}
+
+li {
+    
+}
+
+li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #212F3C;
+    text-align: center;
+    padding: 8px 50px;
+    text-decoration: none;
+    transition: background-color 0.8s;
+    border-radius: 0px;
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+}
+
+li a:hover {
+    background-color: #45B39D;
+}
+
+.active {
+    background-color: #45B39D;
+}
+
+li a::before {
+    font-family: "Font Awesome 5 Free";
+    margin-bottom: 6px;
+    width: 1em;
+    display: inline-block;
+    text-align: center;
+    content: attr(data-icon);
+}
+
+#name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+#name-container h1 {
+    font-size: 70px;
+    color: #45B39D;
+    margin-top: 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+#name-container img {
+    max-width: 350px;
+    margin-top: 20px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 19px;
+}
+
+#about-me {
+    flex: 1;
+    margin: 0 70px;
+    align-items: center;
+    text-align: center;
+    color: #BDC3C7;
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-family: Montserrat, sans-serif;
+}
+
+#contact-me {
+    text-align: center;
+    padding: 1px;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.social-icons-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons a {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.social-icons a[href*="linkedin.com"] {
+    color: #0077B5;
+}
+
+.social-icons a[href*="facebook.com"] {
+    color: #1877F2;
+}
+
+.social-icons a[href*="twitter.com"] {
+    color: #1DA1F2;
+}
+
+.social-icons a[href*="instagram.com"] {
+    color: #E4405F;
+}
+
+.social-icons a[href*="github.com"] {
+    color: #333;
+}
+
+.social-icons a[href*="mailto"] {
+    color: #0070c9;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #B3B6B7;
+    margin-top: auto;
+}
+
+footer p {
+    margin-top: 4px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+}
+
+/* QUALIFICATIONS PAGE */
+#q-content {
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 15px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    color: #BDC3C7;
+    font-family: Montserrat, sans-serif;
+}
+
+#resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+/* PORTFOLIO */
+
+#projects {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#header-projects {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    
+    
+    flex-direction: column;
+    text-align: center;
+    color: #45B39D;
+    font-family: Montserrat, sans-serif;
+}
+
+#header-projects h1 {
+    font-family: Montserrat, sans-serif;
+}
+
+.project-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #117864;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #e6f7ff;
+}
+
+.project-details {
+    flex: 2;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+}
+
+
+
+.project-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.project-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* SERVICE */
+/* #service-content {
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: Montserrat, sans-serif;
+}
+
+.service-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #117864   ;
+}
+
+.service-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#first-card {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #B3B6B7;
+    align-items: center;
+}
+
+#first-card .card-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#first-card .circle-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#first-card .circle-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+} */
+
+
+
+
+/* SERVICE */
+/* #service-content {
+    font-size: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: Montserrat, sans-serif;
+}
+
+.service-card {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.service-card h2 {
+    font-size: 24px;
+    margin: 0;
+    flex: 1;
+    text-align: center; /* Center the titles */
+/* }
+
+.service-card p {
+    margin: 0;
+    line-height: 1.4;
+    color: #333;
+}
+
+.service-card .circle-image {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.service-card .circle-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+} */ 
+
+
+/* SERVICE */
+#service-content {
+    font-size: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #e6f7ff;
+    text-align: left;
+    display: flex;
+    align-items: center; 
+}
+
+.service-content {
+    flex: 1;
+    text-align: center; 
+}
+
+.service-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #117864;
+}
+
+.service-card p {
+    line-height: 1.4;
+    color: #333;
+}
+
+.circle-image {
+    display: flex;
+    align-items: center; 
+    margin-left: 20px;
+}
+
+.circle-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* TOGGLE BUTTON */
+.header-toggle-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding: 30px; 
+}
+
+.theme-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.theme-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    /* background-color: #2196F3; */
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+    /* border: 2px solid #2196F3; */
+    transition: transform 0.2s;
+}
+
+/* Styles for the blue slider in landingstyle.css */
+.theme-switch input:checked + .slider {
+    background-color: #45B39D;
+}
+
+/* Styles for the gray slider in secondstyle.css */
+#firstsheet + .theme-switch input:checked + .slider {
+    background-color: #45B39D;
+}
+
+
+input:checked + .slider {
+    background-color: #ccc;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link id="firstsheet" rel="stylesheet" href="landingstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monograph">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="technicalportfolio.html">Portfolio</a></li>
+            <li><a href="qualifications.html">Qualifications</a></li>
+            <li><a href="servicepage.html">Service</a></li>
+            <li><a href="AIpage.html">AI</a></li>
+        </ul>
+    </nav>
+
+    <script src="toggle.js"></script>
+    
+    <div class="header-toggle-container">
+        <label class="theme-switch" for="theme-toggle">
+            <input type="checkbox" id="theme-toggle" onclick="toggleStyleSheet()">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    
+    <section id="header-projects">
+        <h1>Projects</h1>
+    </section>
+
+    <div class="project-container">
+        <section class="project-card card1">
+            <div class="project-image">
+                <img src="./ut.jpg" alt="Image Description">
+            </div>
+            <div class="project-details">
+                <h2>GBM Data Analysis</h2>
+                <p>As an intern at UTHealth, I worked on a project that focused on advanced biological data analysis. By harnessing the power of the VEGA model, an AI-inspired breakthrough, I analyzed changes in intricate cellular pathways and their responses to inhibiting specific proteins. These endeavors have the potential to revolutionize drug discovery and personalized medicine, making a significant impact in the field of healthcare. 
+                    This is my <a href="https://drive.google.com/file/d/1q2ME9gkynKO5U1_OXd_l6Fx5QKC3b1pf/view?usp=sharing" target="_blank">poster</a> for more details.</p>
+            </div>
+        </section>
+        
+        <section class="project-card card2">
+            <div class="project-image">
+                <img src="./javafx.png" alt="Image Description">
+            </div>
+            <div class="project-details">
+                <h2>JavaFX Project</h2>
+                <p>I completed a project demonstrating proficiency in various Java concepts. This project involved group creation based on survey data, employing abstraction, file I/O, collections, generics, try/catch, comparators, and enums. I crafted a user-friendly Java Swing GUI, enabling the loading of survey data and real-time display of results. Robust error handling was implemented with detailed error logs for debugging. The project showcased my ability to create complex Java applications from scratch, ensuring code quality and adherence to project specifications.
+                    This is more about <a href="https://openjfx.io/" target="_blank">JavaFX</a> 
+                </p>
+            </div>
+        </section>
+    </div>
+    
+
+
+    <footer>
+        <section id="contact-me">
+            <div class="social-icons-container">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ishakawosa" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ishakawosa" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:isha@tamu.edu"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/ishakawosa" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/ishpishkishmish" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/isha.kawosa" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+        <p>&copy; 2023 Isha Kawosa</p>
+    </footer>
+    
+</body>
+</html>
