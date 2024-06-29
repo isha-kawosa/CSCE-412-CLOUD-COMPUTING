@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can We Guess Your Favorite Singer?</title>
+    <link id="firstsheet" rel="stylesheet" href="landingstyle.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="technicalportfolio.html">Portfolio</a></li>
+            <li><a href="qualifications.html">Qualifications</a></li>
+            <li><a href="servicepage.html">Service</a></li>
+            <li><a href="AIpage.html">AI</a></li>
+        </ul>
+    </nav>
+
+    <script src="toggle.js"></script>
+    
+    <div class="header-toggle-container">
+        <label class="theme-switch" for="theme-toggle">
+            <input type="checkbox" id="theme-toggle" onclick="toggleStyleSheet()">
+            <span class="slider round"></span>
+        </label>
+    </div>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+            color: #666;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .result {
+            display: none;
+        }
+        .prompt {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Can We Guess Your Favorite Singer?</h1>
+        <div class="question">
+            <p>Question 1: What type of music do you enjoy the most?</p>
+            <input type="radio" name="q1" value="pop"> Pop
+            <input type="radio" name="q1" value="rock"> Rock
+            <input type="radio" name="q1" value="hiphop"> Hip-Hop
+        </div>
+        <div class="question">
+            <p>Question 2: Which instrument do you prefer in a song?</p>
+            <input type="radio" name="q2" value="guitar"> Guitar
+            <input type="radio" name="q2" value="piano"> Piano
+            <input type="radio" name="q2" value="drums"> Drums
+        </div>
+        <div class="question">
+            <p>Question 3: What's your favorite music decade?</p>
+            <input type="radio" name="q3" value="70s"> 70s
+            <input type="radio" name="q3" value="80s"> 80s
+            <input type="radio" name="q3" value="90s"> 90s
+        </div>
+        <button onclick="calculateSinger()">Submit</button>
+        <div class="result">
+            <h2>Your Likely Favorite Singer:</h2>
+            <p id="singerResult"></p>
+            <button onclick="resetSurvey()">Restart Quiz</button>
+        </div>
+    </div>
+    
+    <div class="prompt">
+        <p>Design an HTML file with CSS styling. Create a survey that asks 3 random questions and, at the end, tells you a singer whose songs you are most likely to enjoy. The answer should be displayed on a new screen, and there should be an option to go back and take the quiz again. Call the survey "Can We Guess Your Favorite Singer?"</p>
+    </div>
+
+    <script>
+        function calculateSinger() {
+            const q1 = document.querySelector('input[name="q1"]:checked').value;
+            const q2 = document.querySelector('input[name="q2"]:checked').value;
+            const q3 = document.querySelector('input[name="q3"]:checked').value;
+            let result = "";
+
+            if (q1 === "pop" && q2 === "piano" && q3 === "80s") {
+                result = "Your likely favorite singer: Michael Jackson";
+            } else if (q1 === "rock" && q2 === "guitar" && q3 === "70s") {
+                result = "Your likely favorite singer: Led Zeppelin";
+            } else if (q1 === "hiphop" && q2 === "drums" && q3 === "90s") {
+                result = "Your likely favorite singer: Tupac Shakur";
+            } else if (q1 === "pop" && q2 === "guitar" && q3 === "70s") {
+                result = "Your likely favorite singer: Prince";
+            } else if (q1 === "pop" && q2 === "guitar" && q3 === "80s") {
+                result = "Your likely favorite singer: Kate Bush";
+            } else if (q1 === "pop" && q2 === "guitar" && q3 === "90s") {
+                result = "Your likely favorite singer: Led Zeppelin";
+            } else if (q1 === "pop" && q2 === "piano" && q3 === "70s") {
+                result = "Your likely favorite singer: Elton John";
+            } else if (q1 === "pop" && q2 === "piano" && q3 === "90s") {
+                result = "Your likely favorite singer: John Legend";
+            } else if (q1 === "pop" && q2 === "drums" && q3 === "90s") {
+                result = "Your likely favorite singer: Red Hot Chilli Peppers";
+            } else if (q1 === "pop" && q2 === "drums" && q3 === "80s") {
+                result = "Your likely favorite singer: Tears for Fears";
+            } else if (q1 === "pop" && q2 === "drums" && q3 === "70s") {
+                result = "Your likely favorite singer: Alice Cooper";
+            } else if (q1 === "rock" && q2 === "guitar" && q3 === "80s") {
+                result = "Your likely favorite singer: Kurt Cobain";
+            } else if (q1 === "rock" && q2 === "guitar" && q3 === "90s") {
+                result = "Your likely favorite singer: Gwen Stefani";
+            } else if (q1 === "rock" && q2 === "piano" && q3 === "90s") {
+                result = "Your likely favorite singer: Alicia Keys";
+            } else if (q1 === "rock" && q2 === "piano" && q3 === "80s") {
+                result = "Your likely favorite singer: David Bowie";
+            } else if (q1 === "rock" && q2 === "piano" && q3 === "70s") {
+                result = "Your likely favorite singer: Diana Ross";
+            } else if (q1 === "rock" && q2 === "drums" && q3 === "90s") {
+                result = "Your likely favorite singer: Adrian Young";
+            } else if (q1 === "rock" && q2 === "drums" && q3 === "80s") {
+                result = "Your likely favorite singer: Lerry Blackmon";
+            } else if (q1 === "rock" && q2 === "drums" && q3 === "70s") {
+                result = "Your likely favorite singer: John Bonham";
+            } else if (q1 === "hiphop" && q2 === "drums" && q3 === "80s") {
+                result = "Your likely favorite singer: Will Smith";
+            } else if (q1 === "hiphop" && q2 === "drums" && q3 === "70s") {
+                result = "Your likely favorite singer: Jay-Z";
+            } else if (q1 === "hiphop" && q2 === "piano" && q3 === "90s") {
+                result = "Your likely favorite singer: Snoop Dogg";
+            } else if (q1 === "hiphop" && q2 === "piano" && q3 === "80s") {
+                result = "Your likely favorite singer: Kool Moe Dee";
+            } else if (q1 === "hiphop" && q2 === "piano" && q3 === "70s") {
+                result = "Your likely favorite singer: Sugarhill Gang";
+            } else if (q1 === "hiphop" && q2 === "guitar" && q3 === "90s") {
+                result = "Your likely favorite singer: Diddy";
+            } else if (q1 === "hiphop" && q2 === "guitar" && q3 === "80s") {
+                result = "Your likely favorite singer: Missy Elliot";
+            } else if (q1 === "hiphop" && q2 === "guitar" && q3 === "70s") {
+                result = "Your likely favorite singer: Kurtis Blow";
+            }
+            
+            
+            else {
+                result = "Sorry, we couldn't guess your favorite singer.";
+            }
+
+            document.getElementById('singerResult').textContent = result;
+            document.querySelector('.question').style.display = 'none';
+            document.querySelector('.result').style.display = 'block';
+        }
+
+        function resetSurvey() {
+            document.querySelector('.question').style.display = 'block';
+            document.querySelector('.result').style.display = 'none';
+            document.querySelector('input[name="q1"]:checked').checked = false;
+            document.querySelector('input[name="q2"]:checked').checked = false;
+            document.querySelector('input[name="q3"]:checked').checked = false;
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2023 Isha Kawosa</p>
+    </footer>
+    
+</body>
+</html>
